@@ -1,0 +1,17 @@
+D:\EmployeesManagment\EmployeesManagment.Data\bin\Debug\net8.0\EmployeesManagement.Data.deps.json
+D:\EmployeesManagment\EmployeesManagment.Data\bin\Debug\net8.0\EmployeesManagement.Data.runtimeconfig.json
+D:\EmployeesManagment\EmployeesManagment.Data\bin\Debug\net8.0\EmployeesManagement.Data.dll
+D:\EmployeesManagment\EmployeesManagment.Data\bin\Debug\net8.0\EmployeesManagement.Data.pdb
+D:\EmployeesManagment\EmployeesManagment.Data\bin\Debug\net8.0\EmployeesManagement.Core.dll
+D:\EmployeesManagment\EmployeesManagment.Data\bin\Debug\net8.0\EmployeesManagement.Core.pdb
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.csproj.AssemblyReference.cache
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.AssemblyInfoInputs.cache
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.AssemblyInfo.cs
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.csproj.CoreCompileInputs.cache
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\Employee.A94912B2.Up2Date
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.dll
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\refint\EmployeesManagement.Data.dll
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.pdb
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\EmployeesManagement.Data.genruntimeconfig.cache
+D:\EmployeesManagment\EmployeesManagment.Data\obj\Debug\net8.0\ref\EmployeesManagement.Data.dll
