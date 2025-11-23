@@ -84,7 +84,7 @@ namespace EmployeesManagement.Data.EF
             try
             {
                 db = new DBContext();
-                return db.Users.ToList();
+                return db.Users.OrderByDescending(e => e.Id).ToList();
             }
             catch (Exception ex)
             {
@@ -97,7 +97,7 @@ namespace EmployeesManagement.Data.EF
             try
             {
                 db = new DBContext();
-                return db.Users.Where(e => e.UserId == userId).ToList();
+                return db.Users.Where(e => e.UserId == userId).OrderByDescending(e => e.Id).ToList();
             }
             catch (Exception ex)
             {

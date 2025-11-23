@@ -97,6 +97,74 @@ namespace EmployeesManagement.Gui.UsersGui
             }
         }
 
+        private async void comboBoxNoOfPages_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                // Show Loading
+                frmLoading.Instance(_main).Show();
+
+                if (await Task.Run(() => _dataHelper.CanConnect()))
+                {
+                    // Start Load Data
+                    // Check if Admin or not
+                    if (LocalUser.Role == "Admin")
+                    {
+                        // Get All Data
+                        _data = await Task.Run(() => _dataHelper.GetAllData());
+                    }
+                    else
+                    {
+                        // Get Data By User
+                        _data = await Task.Run(() => _dataHelper.GetDataByUser(LocalUser.UserId));
+                    }
+
+                    // Get and Set Param
+                    int index = Convert.ToInt32(comboBoxNoOfPages.SelectedItem);
+                    int skip = (index - 1) * Properties.Settings.Default.NoOfDataGridViewItems;
+
+                    // Fill DataGridView
+                    dataGridView1.DataSource = _data.Skip(skip)
+                        .Take(Properties.Settings.Default.NoOfDataGridViewItems).ToList();
+
+                    // Show Empty Data
+                    ShowEmptyDataState();
+
+                    // Clear Data
+                    _data.Clear();
+                    frmLoading.Instance(_main).Hide();
+                }
+                else
+                {
+                    // No Connection
+                    frmLoading.Instance(_main).Hide();
+                    ShowServerErrorState();
+                    MsgHelper.ShowServerError();
+                }
+
+                // Hide Loading
+                frmLoading.Instance(_main).Hide();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
+
+        private void buttonPrev_Click(object sender, EventArgs e)
+        {
+            if (comboBoxNoOfPages.SelectedIndex != 0)
+                comboBoxNoOfPages.SelectedIndex = comboBoxNoOfPages.SelectedIndex - 1;
+            
+        }
+
+        private void buttonNext_Click(object sender, EventArgs e)
+        {
+            if ((comboBoxNoOfPages.SelectedIndex+1) < comboBoxNoOfPages.Items.Count)
+                comboBoxNoOfPages.SelectedIndex = comboBoxNoOfPages.SelectedIndex + 1;
+        }
 
         // Methods
 
@@ -118,15 +186,38 @@ namespace EmployeesManagement.Gui.UsersGui
                     _data = await Task.Run(() => _dataHelper.GetDataByUser(LocalUser.UserId));
                 }
 
-                // Fill Data Grid View
-                dataGridView1.DataSource = _data.ToList();
+                labelNofOfItmes.Text = _data.Count.ToString();
+                // Fill DataGridView
+                dataGridView1.DataSource = _data.Take(Properties.Settings.Default.NoOfDataGridViewItems).ToList();
+                if (_data.Count <= Properties.Settings.Default.NoOfDataGridViewItems)
+                {
+                    comboBoxNoOfPages.Items.Clear();
+                    comboBoxNoOfPages.Items.Add(0);
+                }
+                else
+                {
+                    // Get and Add No of pages
+                    double value = Convert.ToDouble(_data.Count) / Convert.ToDouble(Properties.Settings.Default.NoOfDataGridViewItems);
+                    int noOfPage = Convert.ToInt32(Math.Round(value, MidpointRounding.AwayFromZero));
+                    comboBoxNoOfPages.Items.Clear();
+                    for (int i = 1; i <= noOfPage; i++)
+                    {
+                        comboBoxNoOfPages.Items.Add(i);
+                    }
+                }
+
+                if(comboBoxNoOfPages.Items.Count > 0) 
+                    comboBoxNoOfPages.SelectedIndex = 0;
 
                 // Set Columns Title
                 SetColumns();
 
+                // Show Empty Data
+                ShowEmptyDataState();
+
                 // Clear Data
                 _data.Clear();
-
+                frmLoading.Instance(_main).Hide();
             }
             else
             {
@@ -299,5 +390,7 @@ namespace EmployeesManagement.Gui.UsersGui
 
 
         }
+
+
     }
 }

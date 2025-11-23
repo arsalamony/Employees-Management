@@ -46,5 +46,17 @@ namespace EmployeesManagement.Properties {
                 this["ToastDuration"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int NoOfDataGridViewItems {
+            get {
+                return ((int)(this["NoOfDataGridViewItems"]));
+            }
+            set {
+                this["NoOfDataGridViewItems"] = value;
+            }
+        }
     }
 }

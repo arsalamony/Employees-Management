@@ -281,6 +281,7 @@
             buttonPrev.TabIndex = 6;
             toolTip1.SetToolTip(buttonPrev, "الصفحة السابقة");
             buttonPrev.UseVisualStyleBackColor = true;
+            buttonPrev.Click += buttonPrev_Click;
             // 
             // buttonNext
             // 
@@ -291,6 +292,7 @@
             buttonNext.TabIndex = 7;
             toolTip1.SetToolTip(buttonNext, "الصفحة التالية");
             buttonNext.UseVisualStyleBackColor = true;
+            buttonNext.Click += buttonNext_Click;
             // 
             // comboBoxNoOfPages
             // 
@@ -303,6 +305,7 @@
             comboBoxNoOfPages.Size = new Size(105, 28);
             comboBoxNoOfPages.TabIndex = 8;
             toolTip1.SetToolTip(comboBoxNoOfPages, "عدد الصفحات");
+            comboBoxNoOfPages.SelectedIndexChanged += comboBoxNoOfPages_SelectedIndexChanged;
             // 
             // panel2
             // 

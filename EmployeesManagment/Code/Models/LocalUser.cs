@@ -16,7 +16,7 @@ namespace EmployeesManagement.Code.Models
 
         public static string Password { get; set; }
 
-        public static string Role { get; set; }
+        public static string Role { get; set; } = "Admin";
 
         public static bool IsSecondaryUser { get; set; } = false;
 
