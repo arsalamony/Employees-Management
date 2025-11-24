@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\usersgui\\usersusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\usersgui\\usersusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\usersgui\\usersusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\code\\helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\code\\helper\\excelhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F0C7E4-76C9-4BF4-A1C4-33A28DA13C37}|EmployeesManagment.Data\\EmployeesManagement.Data.csproj|d:\\employeesmanagment\\employeesmanagment.data\\ef\\idatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F0C7E4-76C9-4BF4-A1C4-33A28DA13C37}|EmployeesManagment.Data\\EmployeesManagement.Data.csproj|solutionrelative:employeesmanagment.data\\ef\\idatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE3F86DC-818A-433C-AC0A-C4FC64296C51}|EmployeesManagment.Core\\EmployeesManagement.Core.csproj|d:\\employeesmanagment\\employeesmanagment.core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3F86DC-818A-433C-AC0A-C4FC64296C51}|EmployeesManagment.Core\\EmployeesManagement.Core.csproj|solutionrelative:employeesmanagment.core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|D:\\EmployeesManagment\\employeesmanagment\\gui\\usersgui\\usersusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\usersgui\\usersusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IDataHelper.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment.Data\\EF\\IDataHelper.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment.Data\\EF\\IDataHelper.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment.Data\\EF\\IDataHelper.cs",
-              "RelativeToolTip": "EmployeesManagment.Data\\EF\\IDataHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ExcelHelper.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Code\\Helper\\ExcelHelper.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment\\Code\\Helper\\ExcelHelper.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Code\\Helper\\ExcelHelper.cs",
+              "RelativeToolTip": "EmployeesManagment\\Code\\Helper\\ExcelHelper.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T14:22:36.542Z",
+              "WhenOpened": "2025-11-24T07:01:29.954Z",
               "EditorCaption": ""
             },
             {
@@ -49,14 +53,27 @@
               "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\UsersGui\\UsersUserControl.cs",
               "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\UsersUserControl.cs",
               "RelativeToolTip": "EmployeesManagment\\Gui\\UsersGui\\UsersUserControl.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAswFIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T04:57:04.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment.Core\\User.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment.Core\\User.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment.Core\\User.cs",
+              "RelativeToolTip": "EmployeesManagment.Core\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T08:17:51.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UsersUserControl.cs [Design]",
               "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\UsersUserControl.cs",
               "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\UsersGui\\UsersUserControl.cs",

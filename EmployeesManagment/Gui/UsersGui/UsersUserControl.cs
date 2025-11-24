@@ -74,13 +74,48 @@ namespace EmployeesManagement.Gui.UsersGui
         {
             Search();
         }
-        private void buttonExportAll_Click(object sender, EventArgs e)
-        {
 
+        private async void buttonExportAll_Click(object sender, EventArgs e)
+        {
+            // Show Loading
+            frmLoading.Instance(_main).Show();
+            if (await Task.Run(() => _dataHelper.CanConnect()))
+            {
+                // Start Load Data
+                // Check if Admin or not
+                if (LocalUser.Role == "Admin")
+                {
+                    // Get All Data
+                    _data = await Task.Run(() => _dataHelper.GetAllData());
+                }
+                else
+                {
+                    // Get Data By User
+                    _data = await Task.Run(() => _dataHelper.GetDataByUser(LocalUser.UserId));
+                }
+                frmLoading.Instance(_main).Hide();
+
+                ExportExcel(_data);
+                // Clear Data
+                _data.Clear();
+            }
+            else
+            {
+                // No Connection
+                frmLoading.Instance(_main).Hide();
+                ShowServerErrorState();
+                MsgHelper.ShowServerError();
+            }
+
+            // Hide Loading
+            frmLoading.Instance(_main).Hide();
         }
 
         private void buttonExportDataGridView_Click(object sender, EventArgs e)
         {
+            // Get Data
+            var data = (List<Core.User>)dataGridView1.DataSource;
+            ExportExcel(data);
 
         }
 
@@ -391,6 +426,69 @@ namespace EmployeesManagement.Gui.UsersGui
 
         }
 
+        private void ExportExcel(List<Core.User> data)
+        {
+            // Define Data Table
+            DataTable dataTable = new DataTable();
+
+            // Convert to Data Table
+            using (var reader = FastMember.ObjectReader.Create(data))
+            {
+                dataTable.Load(reader);
+            }
+
+            // Re-Set DataTable
+            dataTable = arrangedDataTable(dataTable);
+
+            // Send to export
+            ExcelHelper.Export(dataTable, "Users");
+
+        }
+
+        private DataTable arrangedDataTable(DataTable dt)
+        {
+            dt.Columns["Id"].SetOrdinal(0);
+            dt.Columns["Id"].ColumnName = "j";
+
+            dt.Columns["FullName"].SetOrdinal(1);
+            dt.Columns["FullName"].ColumnName = "الاسم الكامل";
+
+            dt.Columns["UserName"].SetOrdinal(2);
+            dt.Columns["UserName"].ColumnName = "أسم المستخدم";
+
+            dt.Columns["Password"].SetOrdinal(3);
+            dt.Columns["Password"].ColumnName = "كلمة السر";
+
+            dt.Columns["Role"].SetOrdinal(4);
+            dt.Columns["Role"].ColumnName = "الصلاحية";
+
+            dt.Columns["IsSecondaryUser"].SetOrdinal(5);
+            dt.Columns["IsSecondaryUser"].ColumnName = "هل المستخدم ثانوي";
+
+            dt.Columns["UserId"].SetOrdinal(6);
+            dt.Columns["UserId"].ColumnName = "معرف المستخدم";
+
+            dt.Columns["Phone"].SetOrdinal(7);
+            dt.Columns["Phone"].ColumnName = "رقم الهاتف";
+
+            dt.Columns["Email"].SetOrdinal(8);
+            dt.Columns["Email"].ColumnName = "البريد الالكتروني";
+
+            dt.Columns["Address"].SetOrdinal(9);
+            dt.Columns["Address"].ColumnName = "العنوان";
+
+            dt.Columns["CreatedDate"].SetOrdinal(10);
+            dt.Columns["CreatedDate"].ColumnName = "تاريخ الانشاء";
+
+            dt.Columns["EditedDate"].SetOrdinal(11);
+            dt.Columns["EditedDate"].ColumnName = "تاريخ التحديث";
+
+            // Remove Unwanted Columns
+            dt.Columns.Remove("Roles");
+            dt.Columns.Remove("SystemRecords");
+
+            return dt;
+        }
 
     }
 }
