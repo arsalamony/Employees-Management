@@ -11,7 +11,7 @@ namespace EmployeesManagement.Code.Models
     {
         public static int Id { get; set; } = 1;
 
-        public static string FullName { get; set; }
+        public static string FullName { get; set; } = "Elfofo";
         public static string UserName { get; set; }
 
         public static string Password { get; set; }

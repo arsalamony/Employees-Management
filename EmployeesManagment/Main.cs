@@ -65,8 +65,7 @@ namespace EmployeesManagement
 
         private void buttonSystemRecords_Click(object sender, EventArgs e)
         {
-  //          pageHelper.SetPage(Gui.SystemRecordsGui.SystemRecordsUserControl.Instance(this));
-
+            pageHelper.SetPage(Gui.SystemRecordGui.ctrlSystemRecord.Instance(this));
         }
 
         private void buttonSalayCategory_Click(object sender, EventArgs e)

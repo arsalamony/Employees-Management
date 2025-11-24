@@ -160,3 +160,4 @@ D:\EmployeesManagment\EmployeesManagment\bin\Debug\net8.0-windows\ExcelNumberFor
 D:\EmployeesManagment\EmployeesManagment\bin\Debug\net8.0-windows\FastMember.dll
 D:\EmployeesManagment\EmployeesManagment\bin\Debug\net8.0-windows\RBush.dll
 D:\EmployeesManagment\EmployeesManagment\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+D:\EmployeesManagment\EmployeesManagment\obj\Debug\net8.0-windows\EmployeesManagement.Gui.SystemRecordGui.ctrlSystemRecord.resources
