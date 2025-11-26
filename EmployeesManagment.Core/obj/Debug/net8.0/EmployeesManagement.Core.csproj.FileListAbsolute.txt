@@ -12,3 +12,4 @@ D:\EmployeesManagment\EmployeesManagment.Core\obj\Debug\net8.0\ref\EmployeesMana
 D:\EmployeesManagment\EmployeesManagment.Core\bin\Debug\net8.0\EmployeesManagement.Core.runtimeconfig.json
 D:\EmployeesManagment\EmployeesManagment.Core\obj\Debug\net8.0\EmployeesManagement.Core.csproj.AssemblyReference.cache
 D:\EmployeesManagment\EmployeesManagment.Core\obj\Debug\net8.0\EmployeesManagement.Core.genruntimeconfig.cache
+D:\EmployeesManagment\EmployeesManagment.Core\obj\Debug\net8.0\EmployeesManagement.Core.sourcelink.json

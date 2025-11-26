@@ -70,8 +70,7 @@ namespace EmployeesManagement
 
         private void buttonSalayCategory_Click(object sender, EventArgs e)
         {
-  //          pageHelper.SetPage(Gui.SalaryRateGui.SalaryRateUserControl.Instance(this));
-
+            pageHelper.SetPage(Gui.SalaryRate.ctrlSalaryRate.Instance(this));
         }
 
         private void buttonEmployees_Click(object sender, EventArgs e)

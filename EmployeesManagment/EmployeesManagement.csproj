@@ -17,6 +17,12 @@
     <Compile Update="Gui\SystemRecordGui\ctrlSystemRecord.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Gui\SalaryRateGui\frmAddSalaryRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui\SalaryRateGui\ctrlSalaryRate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

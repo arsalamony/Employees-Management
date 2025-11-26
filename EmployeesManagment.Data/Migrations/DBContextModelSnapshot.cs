@@ -47,6 +47,35 @@ namespace EmployeesManagement.Data.Migrations
                     b.ToTable("Roles");
                 });
 
+            modelBuilder.Entity("EmployeesManagement.Core.SalaryRate", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<float>("BonusYearRate")
+                        .HasColumnType("real");
+
+                    b.Property<int>("Degree")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PromotionYear")
+                        .HasColumnType("int");
+
+                    b.Property<float>("Salary")
+                        .HasColumnType("real");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SalaryRates");
+                });
+
             modelBuilder.Entity("EmployeesManagement.Core.SystemRecord", b =>
                 {
                     b.Property<int>("Id")

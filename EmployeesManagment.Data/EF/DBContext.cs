@@ -24,6 +24,8 @@ namespace EmployeesManagement.Data.EF
         public DbSet<Role> Roles { get; set; }
 
         public DbSet<SystemRecord> SystemRecords { get; set; }
-        
+
+        public DbSet<SalaryRate> SalaryRates { get; set; }
+
     }
 }
