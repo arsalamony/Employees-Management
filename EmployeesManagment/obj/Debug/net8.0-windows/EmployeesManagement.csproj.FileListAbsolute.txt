@@ -165,3 +165,5 @@ D:\EmployeesManagment\EmployeesManagment\obj\Debug\net8.0-windows\EmployeesManag
 D:\EmployeesManagment\EmployeesManagment\obj\Debug\net8.0-windows\EmployeesManagement.Gui.SalaryRate.frmAddSalaryRate.resources
 D:\EmployeesManagment\EmployeesManagment\obj\Debug\net8.0-windows\EmployeesManagement.Gui.EmployeesGui.ctrlEmployees.resources
 D:\EmployeesManagment\EmployeesManagment\obj\Debug\net8.0-windows\EmployeesManagement.Gui.EmployeesGui.frmAddEmployees.resources
+D:\EmployeesManagment\EmployeesManagment\obj\Debug\net8.0-windows\EmployeesManagement.Gui.BooksThanksGui.ctrlBookThank.resources
+D:\EmployeesManagment\EmployeesManagment\obj\Debug\net8.0-windows\EmployeesManagement.Gui.BooksThanksGui.frmAddBookThank.resources

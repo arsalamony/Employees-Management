@@ -30,5 +30,7 @@ namespace EmployeesManagement.Data.EF
 
         public DbSet<Employee> Employees { get; set; }
 
+        public DbSet<BookThank> BookThanks { get; set; }
+
     }
 }

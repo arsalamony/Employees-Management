@@ -4,6 +4,7 @@ using EmployeesManagement.Code.Helper;
 using EmployeesManagement.Code.Models;
 using EmployeesManagement.Core;
 using EmployeesManagement.Data.EF;
+using EmployeesManagement.Gui.BooksThanksGui;
 using EmployeesManagement.Gui.LoadingGui;
 using System.Data;
 
@@ -394,14 +395,14 @@ namespace EmployeesManagement.Gui.EmployeesGui
 
         private async void AddUserControlEffetValueGui()
         {
-            //// Book Thanks
-            //tabControl1.TabPages[1].Controls.Clear();
-            //Employee employees = await Task.Run(() => _dataHelperForEmployees.Find(Id));
-            //BookThankUserControl bookThankUserControl = new BookThankUserControl(employees);
-            //bookThankUserControl.Dock = DockStyle.Fill;
-            //tabControl1.TabPages[1].Controls.Add(bookThankUserControl);
+            // Book Thanks
+            tabControl1.TabPages[1].Controls.Clear();
+            Employee employees = await Task.Run(() => _dataHelperForEmployees.Find(_Id));
+            ctrlBookThank bookThankUserControl = new ctrlBookThank(employees);
+            bookThankUserControl.Dock = DockStyle.Fill;
+            tabControl1.TabPages[1].Controls.Add(bookThankUserControl);
 
-            //// Bonus Records
+            // Bonus Records
             //tabControl1.TabPages[4].Controls.Clear();
             //EmployeesRecordUserControl employeesRecordUserControl = new EmployeesRecordUserControl(employees);
             //employeesRecordUserControl.Dock = DockStyle.Fill;
