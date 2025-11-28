@@ -27,5 +27,8 @@ namespace EmployeesManagement.Data.EF
 
         public DbSet<SalaryRate> SalaryRates { get; set; }
 
+
+        public DbSet<Employee> Employees { get; set; }
+
     }
 }

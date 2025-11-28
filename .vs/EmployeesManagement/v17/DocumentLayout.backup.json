@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\EmployeesManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\salaryrategui\\frmaddsalaryrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\salaryrategui\\frmaddsalaryrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F0C7E4-76C9-4BF4-A1C4-33A28DA13C37}|EmployeesManagment.Data\\EmployeesManagement.Data.csproj|d:\\employeesmanagment\\employeesmanagment.data\\clsdataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F0C7E4-76C9-4BF4-A1C4-33A28DA13C37}|EmployeesManagment.Data\\EmployeesManagement.Data.csproj|solutionrelative:employeesmanagment.data\\clsdataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\salaryrategui\\frmaddsalaryrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\salaryrategui\\frmaddsalaryrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\salaryrategui\\frmaddsalaryrate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\salaryrategui\\frmaddsalaryrate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\employeesgui\\frmaddemployeess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\employeesgui\\frmaddemployeess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmAddSalaryRate.Designer.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.Designer.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.Designer.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.Designer.cs",
-              "RelativeToolTip": "EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.Designer.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAQwHgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T06:07:31.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmAddSalaryRate.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs",
-              "RelativeToolTip": "EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAowE0AAABHAAAAAAAAAA==",
+              "Title": "clsDataAccessSettings.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment.Data\\clsDataAccessSettings.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment.Data\\clsDataAccessSettings.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment.Data\\clsDataAccessSettings.cs",
+              "RelativeToolTip": "EmployeesManagment.Data\\clsDataAccessSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T06:07:01.193Z",
+              "WhenOpened": "2025-11-27T12:40:47.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmAddSalaryRate.cs [Design]",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs [Design]",
-              "RelativeToolTip": "EmployeesManagment\\Gui\\SalaryRateGui\\frmAddSalaryRate.cs [Design]",
+              "Title": "frmAddEmployeess.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
+              "RelativeToolTip": "EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T16:59:47.546Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-27T08:00:27.071Z",
+              "EditorCaption": ""
             }
           ]
         }

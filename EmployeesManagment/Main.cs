@@ -75,7 +75,7 @@ namespace EmployeesManagement
 
         private void buttonEmployees_Click(object sender, EventArgs e)
         {
-  //          pageHelper.SetPage(Gui.EmployeesGui.EmployeesUserControl.Instance(this));
+            pageHelper.SetPage(Gui.EmployeesGui.ctrlEmployees.Instance(this));
 
         }
 
