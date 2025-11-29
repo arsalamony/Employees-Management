@@ -38,6 +38,9 @@
     <Compile Update="Gui\SalaryRateGui\ctrlSalaryRate.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Gui\UsersGui\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\EmployeesManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\EmployeesManagment\\EmployeesManagment.Data\\Migrations\\20251129103845_AddEmployeesRecordsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeesManagment.Data\\Migrations\\20251129103845_AddEmployeesRecordsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F0C7E4-76C9-4BF4-A1C4-33A28DA13C37}|EmployeesManagment.Data\\EmployeesManagement.Data.csproj|d:\\employeesmanagment\\employeesmanagment.data\\ef\\employeerecordef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F0C7E4-76C9-4BF4-A1C4-33A28DA13C37}|EmployeesManagment.Data\\EmployeesManagement.Data.csproj|solutionrelative:employeesmanagment.data\\ef\\employeerecordef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\usersgui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\usersgui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3F86DC-818A-433C-AC0A-C4FC64296C51}|EmployeesManagment.Core\\EmployeesManagement.Core.csproj|d:\\employeesmanagment\\employeesmanagment.core\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3F86DC-818A-433C-AC0A-C4FC64296C51}|EmployeesManagment.Core\\EmployeesManagement.Core.csproj|solutionrelative:employeesmanagment.core\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\usersgui\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\usersgui\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3F86DC-818A-433C-AC0A-C4FC64296C51}|EmployeesManagment.Core\\EmployeesManagement.Core.csproj|d:\\employeesmanagment\\employeesmanagment.core\\employeerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3F86DC-818A-433C-AC0A-C4FC64296C51}|EmployeesManagment.Core\\EmployeesManagement.Core.csproj|solutionrelative:employeesmanagment.core\\employeerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\code\\helper\\rolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\code\\helper\\rolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\employeesgui\\frmaddemployeess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\employeesgui\\frmaddemployeess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|D:\\EmployeesManagment\\employeesmanagment\\gui\\employeesgui\\frmaddemployeess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\employeesgui\\frmaddemployeess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|d:\\employeesmanagment\\employeesmanagment\\gui\\usersgui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0E373B8-38BC-4393-8E8D-6E998F2E4871}|EmployeesManagment\\EmployeesManagement.csproj|solutionrelative:employeesmanagment\\gui\\usersgui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251129103845_AddEmployeesRecordsTable.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment.Data\\Migrations\\20251129103845_AddEmployeesRecordsTable.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment.Data\\Migrations\\20251129103845_AddEmployeesRecordsTable.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment.Data\\Migrations\\20251129103845_AddEmployeesRecordsTable.cs",
-              "RelativeToolTip": "EmployeesManagment.Data\\Migrations\\20251129103845_AddEmployeesRecordsTable.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwBcAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T10:38:46.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeRecordEF.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment.Data\\EF\\EmployeeRecordEF.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment.Data\\EF\\EmployeeRecordEF.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment.Data\\EF\\EmployeeRecordEF.cs",
-              "RelativeToolTip": "EmployeesManagment.Data\\EF\\EmployeeRecordEF.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T10:32:18.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment.Core\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment.Core\\Employee.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment.Core\\Employee.cs",
-              "RelativeToolTip": "EmployeesManagment.Core\\Employee.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwCoAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T10:28:09.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeRecord.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment.Core\\EmployeeRecord.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment.Core\\EmployeeRecord.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment.Core\\EmployeeRecord.cs",
-              "RelativeToolTip": "EmployeesManagment.Core\\EmployeeRecord.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwCwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T09:11:43.334Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmAddEmployeess.cs",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
-              "RelativeToolTip": "EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAowE0BAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment\\Program.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Program.cs",
+              "RelativeToolTip": "EmployeesManagment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:56:29.646Z",
+              "WhenOpened": "2025-11-29T17:36:59.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmAddEmployeess.cs [Design]",
-              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
-              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs",
-              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs [Design]",
-              "RelativeToolTip": "EmployeesManagment\\Gui\\EmployeesGui\\frmAddEmployeess.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "RoleHelper.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Code\\Helper\\RoleHelper.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment\\Code\\Helper\\RoleHelper.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Code\\Helper\\RoleHelper.cs",
+              "RelativeToolTip": "EmployeesManagment\\Code\\Helper\\RoleHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:56:26.149Z"
+              "WhenOpened": "2025-11-29T17:24:17.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs [Design]",
+              "RelativeToolTip": "EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T17:05:11.283Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs",
+              "RelativeToolTip": "EmployeesManagment\\Gui\\UsersGui\\frmLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T16:19:02.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLogin.Designer.cs",
+              "DocumentMoniker": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\frmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeesManagment\\Gui\\UsersGui\\frmLogin.Designer.cs",
+              "ToolTip": "D:\\EmployeesManagment\\EmployeesManagment\\Gui\\UsersGui\\frmLogin.Designer.cs",
+              "RelativeToolTip": "EmployeesManagment\\Gui\\UsersGui\\frmLogin.Designer.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAmwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T16:18:46.72Z",
+              "EditorCaption": ""
             }
           ]
         }
