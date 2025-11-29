@@ -1,10 +1,12 @@
 ﻿using DocumentFormat.OpenXml.Office2010.Excel;
 using DocumentFormat.OpenXml.Spreadsheet;
+using EmployeeRecordsManagement.Data.EF;
 using EmployeesManagement.Code.Helper;
 using EmployeesManagement.Code.Models;
 using EmployeesManagement.Core;
 using EmployeesManagement.Data.EF;
 using EmployeesManagement.Gui.BooksThanksGui;
+using EmployeesManagement.Gui.EmployeeRecordGui;
 using EmployeesManagement.Gui.LoadingGui;
 using System.Data;
 
@@ -13,7 +15,7 @@ namespace EmployeesManagement.Gui.EmployeesGui
     public partial class frmAddEmployees : Form
     {
         private readonly IDataHelper<Core.Employee> _dataHelperForEmployees;
-        //private readonly IDataHelper<Core.EmployeesRecord> _dataHelperForEmployeesRecords;
+        private readonly IDataHelper<Core.EmployeeRecord> _dataHelperForEmployeesRecords;
         private readonly IDataHelper<Core.SalaryRate> _dataHelperForSalaryRate;
         private readonly IDataHelper<Core.SystemRecord> _dataHelperForSystemRecords;
         private readonly Main _main;
@@ -27,7 +29,7 @@ namespace EmployeesManagement.Gui.EmployeesGui
             InitializeComponent();
 
             _dataHelperForEmployees = new EmployeeEF();
-            //_dataHelperForEmployeesRecords = new EmployeesRecordsRecordsEF();
+            _dataHelperForEmployeesRecords = new EmployeeRecordEF();
             _dataHelperForSystemRecords = new SystemRecordEF();
             _dataHelperForSalaryRate = new SalaryRateEF();
             this.Owner = main;
@@ -281,6 +283,55 @@ namespace EmployeesManagement.Gui.EmployeesGui
             }
         }
 
+        private async void AddRecord()
+        {
+            // Set Employees
+            EmployeeRecord employees = new EmployeeRecord
+            {
+                Name = textBoxFullName.Text,
+                JobTitle = comboBoxJobTitle.Text,
+                EmpState = comboBoxEmpState.Text,
+                LastPromotionDate = dateTimePickerLastPromotion.Value.Date,
+
+                CurrentDegree = (int)numericUpDownCurrentDegree.Value,
+                CurrentStage = (int)numericUpDownCurrentStage.Value,
+                CurrentSalary = (float)Convert.ToDouble(textBoxCurrentSalary.Text),
+                CurrentDate = dateTimePickerCurrentDate.Value.Date,
+
+                NextDegree = (int)numericUpDownNextDegree.Value,
+                NextStage = (int)numericUpDownNextStage.Value,
+                NextSalary = (float)Convert.ToDouble(textBoxNextSalary.Text),
+                NextDate = dateTimePickerNextDate.Value.Date,
+
+                Note = richTextBoxNote.Text,
+
+                AddedDate = DateTime.Now,
+                UpdateDate = DateTime.Now,
+
+                UserId = LocalUser.UserId,
+                EmployeeId = _Id
+            };
+
+            // Send Data to database
+            var result = await Task.Run(() => _dataHelperForEmployeesRecords.Add(employees));
+            if (result == "1")
+            {
+
+                // Success
+                SystemRecordHelper.Add("اضافة سجل موظف",
+                    $"تم اضافة سجل جديد يحمل الرقم التعريفي {employees.Id}");
+                page.LoadData();
+                ToastHelper.ShowAddToast();
+                _Id = employees.Id;
+                SetRoleOfTabs();
+            }
+            else
+            {
+                // Msg Box with result
+                MessageBox.Show(result);
+            }
+        }
+
         private async void Edit()
         {
 
@@ -403,10 +454,10 @@ namespace EmployeesManagement.Gui.EmployeesGui
             tabControl1.TabPages[1].Controls.Add(bookThankUserControl);
 
             // Bonus Records
-            //tabControl1.TabPages[4].Controls.Clear();
-            //EmployeesRecordUserControl employeesRecordUserControl = new EmployeesRecordUserControl(employees);
-            //employeesRecordUserControl.Dock = DockStyle.Fill;
-            //tabControl1.TabPages[4].Controls.Add(employeesRecordUserControl);
+            tabControl1.TabPages[4].Controls.Clear();
+            ctrlEmployeeRecord employeesRecordUserControl = new ctrlEmployeeRecord(employees);
+            employeesRecordUserControl.Dock = DockStyle.Fill;
+            tabControl1.TabPages[4].Controls.Add(employeesRecordUserControl);
         }
 
         private void textBoxCurrentSalary_MouseLeave(object sender, EventArgs e)
@@ -467,19 +518,29 @@ namespace EmployeesManagement.Gui.EmployeesGui
         private void buttonUpgrade_Click(object sender, EventArgs e)
         {
 
-            //var reuslt = MessageBox.Show("هل انت متأكد من هذا الاجراء", "اجراء ترقية", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            //if (reuslt == DialogResult.Yes)
-            //{
-            //    // Save Record
-            //    AddRecored();
+            var reuslt = MessageBox.Show("هل انت متأكد من هذا الاجراء", "اجراء ترقية", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (reuslt == DialogResult.Yes)
+            {
+                // Save Record
+                AddRecord();
 
-            //    // Update Data
-            //    UpdateBeforeSaveRecord();
+                // Update Data
+                UpdateBeforeSaveRecord();
 
-            //    // Save Data
-            //    Edit();
-            //}
+                // Save Data
+                Edit();
+            }
 
+        }
+
+        private void UpdateBeforeSaveRecord()
+        {
+            numericUpDownCurrentDegree.Value = numericUpDownNextDegree.Value;
+            numericUpDownCurrentStage.Value = numericUpDownNextStage.Value;
+            textBoxCurrentSalary.Text = textBoxNextSalary.Text;
+            dateTimePickerCurrentDate.Value = dateTimePickerNextDate.Value;
+            richTextBoxNote.Text = string.Empty;
+            AutoComplete(salaryList);
         }
     }
 }

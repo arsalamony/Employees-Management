@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeesManagement.Core
 {
-    public class Employee
+    public class EmployeeRecord
     {
 
         public int Id { get; set; }
@@ -39,7 +39,9 @@ namespace EmployeesManagement.Core
 
         // Relationship
         public string UserId { get; set; }
-        public List<BookThank> BookThanks { get; set; }
-        public List<EmployeeRecord> EmployeesRecords { get; set; }
+        
+        public int EmployeeId { get; set; }
+
+        public Employee Employee { get; set; }
     }
 }

@@ -14,6 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Gui\EmployeeRecordGui\ctrlEmployeeRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Gui\EmployeesGui\ctrlEmployees.cs">
       <SubType>UserControl</SubType>
     </Compile>
